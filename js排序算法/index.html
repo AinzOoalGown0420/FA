@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js排序算法</title>
+    <script type="text/javascript">
+    // 冒泡排序
+    function bubbleSort(arr){
+        for(var i=0;i<arr.length;i++) {
+            for(var j=0;j<arr.length-i;j++) {
+                if(arr[j]>arr[j+1]) {
+                    var num  = arr[j];
+                    arr[j]   = arr[j+1];
+                    arr[j+1] = num;
+                }
+            }
+            // console.log(arr);
+        }
+        return arr;
+    }
+    var num = [1,2,1,3,7,4,9,0];
+    console.log(bubbleSort(num));
+    // 快速排序
+    function quickSort(arr) {
+        if(arr.length <= 1) {
+            return arr;
+        }
+        var index  = Math.floor(arr.length/2);
+        var middle = arr.splice(index,1);
+        var left   = [];
+        var right  = [];
+        for(var i=0;i<arr.length;i++) {
+            if(arr[i] < middle) {
+                left.push(arr[i]);
+            }else{
+                right.push(arr[i]);
+            }
+        }
+        return quickSort(left).concat(middle,quickSort(right));
+    }
+    var aaa = [1,3,2,7,1,5,9,2];
+    alert(quickSort(aaa));
+
+    // sort方法
+    function ArraySort() {
+        var tag =[];
+        for(var i=0;i<arguments.length;i++) {
+            tag.push(arguments[i]);
+        }
+        tag.sort(function(compare1,compare2) {
+            return compare1 - compare2;
+        })
+        return tag;
+    }
+
+    // Array.prototype.swap = function(i,j) {
+    //     var temp = this[i];
+    //     this[i]  = this[j];
+    //     this[j]  = this[i];
+    // }
+    // Array.prototype.bubbleSort = function() {
+    //     for(var i=this.length-1;i>0;-i){
+    //         for(var j=0;j<i;++j){
+    //             if(this[j]>this[j+1]) this.swap(j,j+1);
+    //         }
+    //     }
+    // }
+    </script>
+</head>
+<body>
+        <div class="" style="background: red; width:100px; height:100px;  ">
+
+        </div>
+</body>
+</html>

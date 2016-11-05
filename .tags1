@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^<html lang="en">$/;"	function	line:2
+head	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^<head>$/;"	function	line:3
+meta	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^    <meta charset="UTF-8">$/;"	function	line:4
+meta	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^    <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
+meta	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^    <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
+title	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^    <title>jsÊéíÂ∫èÁÆóÊ≥ï<\/title>$/;"	function	line:7
+script	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^    <script type="text\/javascript">$/;"	function	line:8
+bubbleSort	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^    function bubbleSort(arr){$/;"	function	line:10
+quickSort	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^    function quickSort(arr) {$/;"	function	line:26
+ArraySort	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^    function ArraySort() {$/;"	function	line:47
+body	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^<body>$/;"	function	line:72
+div	F:\GitHub\FA\js≈≈–ÚÀ„∑®\index.html	/^        <div class="" style="background: red; width:100px; height:100px;  ">$/;"	function	line:73
