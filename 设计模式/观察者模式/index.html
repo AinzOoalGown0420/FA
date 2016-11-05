@@ -1,15 +1,15 @@
-<link rel="stylesheet" href="..\jquery-3.1.1.js" media="screen" title="no title">
+<script src="../../jquery-3.1.1.js"></script>
 <script type="text/javascript">
     ~(function() {
-        var o = %({});
+        var o = $({});
         $.jianting = function() {
-            $.on.apply(o,arguments);
+            o.on.apply(o,arguments);
         }
         $.fabu = function() {
-            $.trigger.apply(o,arguments);
+            o.trigger.apply(o,arguments);
         }
         $.qingchu = function() {
-            $.off.apply(o,arguments);
+            o.off.apply(o,arguments);
         }
     })();
     $.jianting('/text/ls', function(e,a,b,c) {
