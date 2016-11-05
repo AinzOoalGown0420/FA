@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="..\jquery-3.1.1.js" media="screen" title="no title">
+<script type="text/javascript">
+    ~(function() {
+        var o = %({});
+        $.jianting = function() {
+            $.on.apply(o,arguments);
+        }
+        $.fabu = function() {
+            $.trigger.apply(o,arguments);
+        }
+        $.qingchu = function() {
+            $.off.apply(o,arguments);
+        }
+    })();
+    $.jianting('/text/ls', function(e,a,b,c) {
+        alert(a+'||'+b+'||'+c);
+    })
+    $.jianting('/text/ls', function(e,a,b,c) {
+        alert('ok');
+    })
+    $.fabu('/test/ls',[1,2,3]);
+</script>
